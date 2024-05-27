@@ -15,10 +15,12 @@ const Header: React.FC<HeaderProps> = ({ toggleSidebar, isSidebarOpen }) => {
         return 'Home';
       case '/contacts':
         return 'Contacts';
-      case '/Charts-and-Maps':
+      case '/create-contact':
+        return 'Contacts';
+      case '/charts-and-maps':
         return 'Charts and Maps';
       default:
-        return 'Charts and Maps';
+        return 'Contacts';
     }
   };
 

@@ -117,7 +117,7 @@ const ChartsAndGraphs: React.FC = () => {
           <p>Loading line chart...</p>
         )
       ) : (
-        <MapContainer center={[20, 0]} zoom={3} style={{ height: '70vh', width: '100%' }}>
+        <MapContainer center={[20, 0]} zoom={3} style={{height: '70vh', width: '100%' }} className="-z-10">
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
